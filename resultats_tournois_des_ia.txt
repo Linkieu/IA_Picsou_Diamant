@@ -1,0 +1,232 @@
+////// REMARQUE : les noms des IA ont été renommés afin d'assurer l'anonymat de mes camarades.
+////// Notre IA se nomme "IA_Picsou"
+
+
+********************************************************
+Notes finales sur la partie "Performance"
+********************************************************
+
+Notes finales
+
+IA_G_C 19.2
+IA_Picsou 18.7
+IA_D_V 18.5
+IA_B_C 18.3
+IA_w 18.1
+IA_M_D 17.4
+IA_s_k 17.7
+IA_P_R 17.6
+IA_L_V 17.3
+IA_C 17.6
+IA_G 17.0
+IA_F_D 17.3
+IA_T_R 16.5
+IA_B_B 16.4
+IA_B_B 16.3
+IA_M_L 17.1
+IA_B_O 16.5
+IA_A_B 15.7
+IA_R_N 16.6
+IA_D 15.4
+IA_Q_P 15.8
+IA_G_J 14.9
+IA_G_O 14.0
+IA_G_G 9.7
+IA_E_T 13.4
+IA_N_E 9.8
+IA_G_L 8.4
+IA_L_M 8.6
+IAdiamant_M 2.0
+IA_R_G 8.1
+IA_R 7.9
+IA_S 7.2
+IA_s 0.0
+IA_D_P 0.0
+
+
+
+********************************************************
+PROTOCOLE
+********************************************************
+
+Certaines IA rendues buggaient au sens où le programme plantait.
+Afin de pouvoir tout de même produire une note,
+il a été décidé que si une IA bug ou ne renvoie pas de réponse, elle dit 'X' par défaut. Si les IA ne buggent 
+pas trop elles arrivent quand même à marquer quelques points.
+Malgré cela certaines étaient trop bugguées et n'ont pas pu être évaluées.
+
+
+Première partie : Qualifs sur 20
+    match contre 3 IA Aléatoires (50%, 30% et 80% de proba de continuer)
+    contre ces 3 IA, 
+        l'IA aléatoire 50% fait 15 rubis en moyenne : 5 points si vous faites mieux
+        l'IA aléatoire 80% fait 30 rubis en moyenne : 5 points si vous faites mieux
+    ceci donne la note1
+    ensuite, les 10 points restants dépendent de votre classement moyen par rapport à ces IA
+    (0 si vous êtes toujours dernier, 10 si vous êtes toujours premier)
+    ceci donne la note2
+        
+
+Deuxième partie : Matchs sur 10
+    M fois de suite (M=10000) on tire 4 IAs au hasard et on effectue N (N=100)
+    matchs. On effectue la moyenne des points de victoire (liés à la position 1er, 2ème etc)
+    de chaque IA.
+    Ceci nous donne un classement des IA.
+    On prend les 4 premières IA et on fait N fois le match entre ces IA,
+    afin de réordonner les 4 premières si nécessaire.
+
+    A la fin, les 4 premières IA ont 10, 9.5, 9 et 8.5, et les autres
+    ont une note qui dépend de leur score proportionnelement à l'IA classée 5ème qui a 8
+
+Total sur 30, ramené sur 20
+"""
+
+
+
+
+
+********************************************************
+DETAILS
+********************************************************
+resultats des 'qualifs' contre les IA random
+
+IA_M_L 19.28199999999996
+{'score': 59.6016, 'pv': 0.9281999999999961, 'note1': 10, 'note2': 9.281999999999961, 'note_qualif': 19.28199999999996}
+
+IA_ 19.150857142857113
+{'score': 58.1845, 'pv': 0.9150857142857114, 'note1': 10, 'note2': 9.150857142857113, 'note_qualif': 19.150857142857113}
+
+IA_B_C 19.082571428571413
+{'score': 55.8595, 'pv': 0.9082571428571413, 'note1': 10, 'note2': 9.082571428571413, 'note_qualif': 19.082571428571413}
+
+IA_F_D 18.984571428571414
+{'score': 55.8898, 'pv': 0.8984571428571413, 'note1': 10, 'note2': 8.984571428571414, 'note_qualif': 18.984571428571414}
+
+IA_C_G 18.94542857142857
+{'score': 51.5393, 'pv': 0.8945428571428574, 'note1': 10, 'note2': 8.945428571428574, 'note_qualif': 18.94542857142857}
+
+IA_P_R 18.93928571428571
+{'score': 53.7504, 'pv': 0.893928571428571, 'note1': 10, 'note2': 8.93928571428571, 'note_qualif': 18.93928571428571}
+
+IA_R_N 18.92471428571429
+{'score': 57.5597, 'pv': 0.892471428571429, 'note1': 10, 'note2': 8.924714285714291, 'note_qualif': 18.92471428571429}
+
+IA_D_V 18.876142857142856
+{'score': 52.8806, 'pv': 0.8876142857142857, 'note1': 10, 'note2': 8.876142857142856, 'note_qualif': 18.876142857142856}
+
+IA_G_C 18.86385714285715
+{'score': 40.5812, 'pv': 0.8863857142857149, 'note1': 10, 'note2': 8.86385714285715, 'note_qualif': 18.86385714285715}
+
+IA_s 18.82857142857143
+{'score': 50.6, 'pv': 0.882857142857143, 'note1': 10, 'note2': 8.82857142857143, 'note_qualif': 18.82857142857143}
+
+IA_M_D 18.712714285714313
+{'score': 56.2176, 'pv': 0.8712714285714314, 'note1': 10, 'note2': 8.712714285714313, 'note_qualif': 18.712714285714313}
+
+IA_L_V 18.597285714285753
+{'score': 53.6442, 'pv': 0.8597285714285755, 'note1': 10, 'note2': 8.597285714285755, 'note_qualif': 18.597285714285753}
+
+IA_Picsou 18.594285714285817
+{'score': 42.6675, 'pv': 0.8594285714285815, 'note1': 10, 'note2': 8.594285714285816, 'note_qualif': 18.594285714285817}
+
+IA_G_H 18.54442857142864
+{'score': 50.0059, 'pv': 0.8544428571428638, 'note1': 10, 'note2': 8.544428571428638, 'note_qualif': 18.54442857142864}
+
+IA_B_O 18.281000000000073
+{'score': 54.499, 'pv': 0.8281000000000073, 'note1': 10, 'note2': 8.281000000000073, 'note_qualif': 18.281000000000073}
+
+IA_B_B 18.184714285714417
+{'score': 48.2273, 'pv': 0.8184714285714417, 'note1': 10, 'note2': 8.184714285714417, 'note_qualif': 18.184714285714417}
+
+IA_B_B 18.008571428571553
+{'score': 47.9885, 'pv': 0.8008571428571553, 'note1': 10, 'note2': 8.008571428571553, 'note_qualif': 18.008571428571553}
+
+IA_T_R 17.874285714285733
+{'score': 44.171, 'pv': 0.7874285714285735, 'note1': 10, 'note2': 7.874285714285735, 'note_qualif': 17.874285714285733}
+
+IA_Q_P 17.726000000000273
+{'score': 33.5509, 'pv': 0.7726000000000272, 'note1': 10, 'note2': 7.726000000000272, 'note_qualif': 17.726000000000273}
+
+IA_A_B 17.65814285714301
+{'score': 41.4957, 'pv': 0.7658142857143009, 'note1': 10, 'note2': 7.658142857143009, 'note_qualif': 17.65814285714301}
+
+IA_D 17.181857142857222
+{'score': 50.0102, 'pv': 0.7181857142857221, 'note1': 10, 'note2': 7.181857142857221, 'note_qualif': 17.181857142857222}
+
+IA_G_J 16.93928571428586
+{'score': 37.1427, 'pv': 0.6939285714285857, 'note1': 10, 'note2': 6.939285714285857, 'note_qualif': 16.93928571428586}
+
+IA_G_O 16.534142857143
+{'score': 35.8909, 'pv': 0.6534142857142998, 'note1': 10, 'note2': 6.5341428571429985, 'note_qualif': 16.534142857143}
+
+IA_E_T 16.146714285714417
+{'score': 33.876, 'pv': 0.6146714285714416, 'note1': 10, 'note2': 6.146714285714417, 'note_qualif': 16.146714285714417}
+
+IA_N 10.714000000000208
+{'score': 28.3229, 'pv': 0.5714000000000208, 'note1': 5, 'note2': 5.714000000000208, 'note_qualif': 10.714000000000208}
+
+IA_G_G 10.593428571428774
+{'score': 27.0694, 'pv': 0.5593428571428773, 'note1': 5, 'note2': 5.593428571428774, 'note_qualif': 10.593428571428774}
+
+IA_L_M 9.513714285714558
+{'score': 21.9075, 'pv': 0.4513714285714558, 'note1': 5, 'note2': 4.513714285714558, 'note_qualif': 9.513714285714558}
+
+IA_G_L 9.233571428571762
+{'score': 19.0002, 'pv': 0.4233571428571763, 'note1': 5, 'note2': 4.2335714285717625, 'note_qualif': 9.233571428571762}
+
+IA_R_M 9.151714285714686
+{'score': 17.0766, 'pv': 0.41517142857146866, 'note1': 5, 'note2': 4.151714285714687, 'note_qualif': 9.151714285714686}
+
+IA_R 8.858000000000258
+{'score': 19.8551, 'pv': 0.3858000000000258, 'note1': 5, 'note2': 3.858000000000258, 'note_qualif': 8.858000000000258}
+
+IA_S_B 8.403285714285921
+{'score': 17.5814, 'pv': 0.3403285714285922, 'note1': 5, 'note2': 3.403285714285922, 'note_qualif': 8.403285714285921}
+
+IAdiamant_M 0.10328571428571424
+{'score': 0.8713, 'pv': 0.010328571428571425, 'note1': 0, 'note2': 0.10328571428571424, 'note_qualif': 0.10328571428571424}
+
+IA_s 0.0029999999999999996
+{'score': 0.0348, 'pv': 0.0003, 'note1': 0, 'note2': 0.0029999999999999996, 'note_qualif': 0.0029999999999999996}
+
+IA_D_P 0.0
+{'score': 0.0, 'pv': 0.0, 'note1': 0, 'note2': 0.0, 'note_qualif': 0.0}
+
+
+Resultats du grand tournoi
+(le score des 4 premiers est relatif à la finale entre eux)
+
+1.  IA_G_C 0.5
+2.  IA_Picsou 0.35
+3.  IA_D_V 0.34
+4.  IA_B 0.3
+5.  IA_w 0.52
+6.  IA_M_D 0.52
+7.  IA_s 0.51
+8.  IA_P_R 0.5
+9.  IA_L_V 0.5
+10.  IA_C_G 0.5
+11.  IA_G_H 0.48
+12.  IA_F_D 0.47
+13.  IA_T_R 0.46
+14.  IA_B_B 0.46
+15.  IA_B_B 0.46
+16.  IA_M 0.44
+17.  IA_B_O 0.44
+18.  IA_A_B 0.4
+19.  IA_R_N 0.4
+20.  IA_D 0.39
+21.  IA_Q_P 0.39
+22.  IA_G 0.38
+23.  IA_G_O 0.32
+24.  IA_G_G 0.29
+25.  IA_E_T 0.28
+26.  IA_N 0.27
+27.  IA_G 0.25
+28.  IA_L_M 0.24
+29.  IAdiamant_M 0.21
+30.  IA_T 0.21
+31.  IA_R 0.2
+32.  IA_S_B 0.19
+33.  IA_D_P 0.0
+
