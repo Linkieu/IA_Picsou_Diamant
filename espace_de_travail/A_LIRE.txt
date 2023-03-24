@@ -1,0 +1,6 @@
+En-dehors de ce qui est décrit dans le rapport, je ne donne pas d'information supplémentaire.
+Cependant, vous pouvez lancer le générateur en exécutant generateur_de_generations.py
+
+
+Cela fonctionne sur PyCharm, pas sur EduPython.
+Je vous laisse chercher pour voir comment installer les modules nécessaires.
