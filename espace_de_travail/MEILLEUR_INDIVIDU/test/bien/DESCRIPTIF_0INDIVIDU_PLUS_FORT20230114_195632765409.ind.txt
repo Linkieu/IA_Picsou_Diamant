@@ -1,0 +1,109 @@
+
+============================================
+INFORMATION DE L'INDIVIDU 0INDIVIDU_PLUS_FORT20230114_195632765409.ind
+============================================
+
+idEspece : 1
+nbNeurones : 2
+score : 81
+nbInnovationConnexions : 0
+------- NEURONE
+        valeur : 7
+        id : 0
+        typeNeurone : INPUT
+
+
+------- NEURONE
+        valeur : 4
+        id : 1
+        typeNeurone : INPUT
+
+
+------- NEURONE
+        valeur : 1
+        id : 2
+        typeNeurone : INPUT
+
+
+------- NEURONE
+        valeur : 7
+        id : 3
+        typeNeurone : INPUT
+
+
+------- NEURONE
+        valeur : 9.571428571428571
+        id : 4
+        typeNeurone : INPUT
+
+
+------- NEURONE
+        valeur : 0.14285714285714285
+        id : 5
+        typeNeurone : INPUT
+
+
+------- NEURONE
+        valeur : -0.2857142857142857
+        id : 6
+        typeNeurone : INPUT
+
+
+------- NEURONE
+        valeur : 10.5
+        id : 7
+        typeNeurone : OUTPUT
+
+
+------- NEURONE
+        valeur : 8.375
+        id : 8
+        typeNeurone : OUTPUT
+
+
+------- NEURONE
+        valeur : 21.0
+        id : 9
+        typeNeurone : CACHER
+
+
+------- NEURONE
+        valeur : -10.5
+        id : 10
+        typeNeurone : CACHER
+
+
+
+
+
+------- CONNEXION
+        innovation : 128810
+        entree : 9
+        sortie : 7
+        actif : True
+        poids : 3.5
+
+
+------- CONNEXION
+        innovation : 132831
+        entree : 0
+        sortie : 7
+        actif : True
+        poids : 1.5
+
+
+------- CONNEXION
+        innovation : 132832
+        entree : 0
+        sortie : 10
+        actif : True
+        poids : -1.5
+
+
+------- CONNEXION
+        innovation : 132833
+        entree : 10
+        sortie : 9
+        actif : True
+        poids : -2.0
+

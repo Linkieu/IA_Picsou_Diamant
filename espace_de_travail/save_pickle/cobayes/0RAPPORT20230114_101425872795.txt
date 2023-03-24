@@ -1,0 +1,226 @@
+
+
+
+--------DEBUT DE LA PARTIE
+
+
+DEBUT MANCHE
+  scores: [0, 0, 0, 0], reliques gagnées: 0
+  deck: ['P2', 3, 14, 'P1', 'P4', 'P5', 7, 'P1', 'P3', 'P4', 9, 13, 5, 'P2', 7, 'R', 11, 11, 15, 'P2', 1, 17, 4, 5, 'P5', 2, 'P3', 'P1', 'P4', 'P5', 'P3']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE P2
+  DEBUT TOUR
+    rubis en jeu: 0reliques en jeu: 0, pieges:['P2']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 3
+    le joueur 0 explore et gagne 0
+    le joueur 1 explore et gagne 0
+    le joueur 2 explore et gagne 0
+    le joueur 3 explore et gagne 0
+    il reste 3 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 3reliques en jeu: 0, pieges:['P2']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 14
+    le joueur 0 explore et gagne 3
+    le joueur 1 explore et gagne 3
+    le joueur 2 explore et gagne 3
+    le joueur 3 explore et gagne 3
+    il reste 2 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 5reliques en jeu: 0, pieges:['P2']
+    choix des joueurs: ['R', 'R', 'R', 'R']
+    le joueur 0 rentre et gagne 1 sur la route et 4 dans la manche
+    le joueur 1 rentre et gagne 1 sur la route et 4 dans la manche
+    le joueur 2 rentre et gagne 1 sur la route et 4 dans la manche
+    le joueur 3 rentre et gagne 1 sur la route et 4 dans la manche
+  FIN TOUR AU CAMP
+FIN MANCHE
+DEBUT MANCHE
+  scores: [4, 4, 4, 4], reliques gagnées: 0
+  deck: ['P4', 11, 5, 'P5', 'R', 14, 'P3', 7, 1, 'P2', 9, 'R', 7, 'P2', 'P4', 13, 3, 'P2', 'P3', 11, 2, 15, 'P4', 'P5', 'P1', 'P1', 'P3', 5, 'P5', 17, 'P1', 4]
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE P4
+  DEBUT TOUR
+    rubis en jeu: 0reliques en jeu: 0, pieges:['P4']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 11
+    le joueur 0 explore et gagne 2
+    le joueur 1 explore et gagne 2
+    le joueur 2 explore et gagne 2
+    le joueur 3 explore et gagne 2
+    il reste 3 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 3reliques en jeu: 0, pieges:['P4']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 5
+    le joueur 0 explore et gagne 1
+    le joueur 1 explore et gagne 1
+    le joueur 2 explore et gagne 1
+    le joueur 3 explore et gagne 1
+    il reste 1 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 4reliques en jeu: 0, pieges:['P4']
+    choix des joueurs: ['R', 'R', 'R', 'R']
+    le joueur 0 rentre et gagne 1 sur la route et 4 dans la manche
+    le joueur 1 rentre et gagne 1 sur la route et 4 dans la manche
+    le joueur 2 rentre et gagne 1 sur la route et 4 dans la manche
+    le joueur 3 rentre et gagne 1 sur la route et 4 dans la manche
+  FIN TOUR AU CAMP
+FIN MANCHE
+DEBUT MANCHE
+  scores: [8, 8, 8, 8], reliques gagnées: 0
+  deck: [11, 'P4', 3, 2, 'R', 1, 13, 7, 17, 11, 'P3', 'P1', 'P5', 'P5', 'P4', 'P2', 'R', 5, 'P3', 7, 'P3', 'P5', 15, 5, 'P4', 'P2', 9, 'P1', 'P2', 'R', 4, 'P1', 14]
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 11
+    le joueur 0 explore et gagne 2
+    le joueur 1 explore et gagne 2
+    le joueur 2 explore et gagne 2
+    le joueur 3 explore et gagne 2
+    il reste 3 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 3reliques en jeu: 0, pieges:[]
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE P4
+  DEBUT TOUR
+    rubis en jeu: 3reliques en jeu: 0, pieges:['P4']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 3
+    le joueur 0 explore et gagne 0
+    le joueur 1 explore et gagne 0
+    le joueur 2 explore et gagne 0
+    le joueur 3 explore et gagne 0
+    il reste 3 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 6reliques en jeu: 0, pieges:['P4']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 2
+    le joueur 0 explore et gagne 0
+    le joueur 1 explore et gagne 0
+    le joueur 2 explore et gagne 0
+    le joueur 3 explore et gagne 0
+    il reste 2 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 8reliques en jeu: 0, pieges:['P4']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE R
+  DEBUT TOUR
+    rubis en jeu: 8reliques en jeu: 1, pieges:['P4']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 1
+    le joueur 0 explore et gagne 0
+    le joueur 1 explore et gagne 0
+    le joueur 2 explore et gagne 0
+    le joueur 3 explore et gagne 0
+    il reste 1 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 9reliques en jeu: 1, pieges:['P4']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 13
+    le joueur 0 explore et gagne 3
+    le joueur 1 explore et gagne 3
+    le joueur 2 explore et gagne 3
+    le joueur 3 explore et gagne 3
+    il reste 1 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 10reliques en jeu: 1, pieges:['P4']
+    choix des joueurs: ['R', 'R', 'R', 'R']
+    le joueur 0 rentre et gagne 2 sur la route et 7 dans la manche
+    le joueur 1 rentre et gagne 2 sur la route et 7 dans la manche
+    le joueur 2 rentre et gagne 2 sur la route et 7 dans la manche
+    le joueur 3 rentre et gagne 2 sur la route et 7 dans la manche
+  FIN TOUR AU CAMP
+FIN MANCHE
+DEBUT MANCHE
+  scores: [15, 15, 15, 15], reliques gagnées: 0
+  deck: ['P1', 11, 'P2', 'R', 'P4', 13, 1, 'R', 'P2', 'P2', 4, 'P4', 7, 7, 'P5', 5, 'P5', 'R', 11, 15, 5, 'P3', 'P3', 'P1', 'P5', 'P4', 9, 'P1', 14, 17, 3, 2, 'P3']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE P1
+  DEBUT TOUR
+    rubis en jeu: 0reliques en jeu: 0, pieges:['P1']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 11
+    le joueur 0 explore et gagne 2
+    le joueur 1 explore et gagne 2
+    le joueur 2 explore et gagne 2
+    le joueur 3 explore et gagne 2
+    il reste 3 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 3reliques en jeu: 0, pieges:['P1']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE P2
+  DEBUT TOUR
+    rubis en jeu: 3reliques en jeu: 0, pieges:['P1', 'P2']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE R
+  DEBUT TOUR
+    rubis en jeu: 3reliques en jeu: 1, pieges:['P1', 'P2']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE P4
+  DEBUT TOUR
+    rubis en jeu: 3reliques en jeu: 1, pieges:['P1', 'P2', 'P4']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 13
+    le joueur 0 explore et gagne 3
+    le joueur 1 explore et gagne 3
+    le joueur 2 explore et gagne 3
+    le joueur 3 explore et gagne 3
+    il reste 1 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 4reliques en jeu: 1, pieges:['P1', 'P2', 'P4']
+    choix des joueurs: ['R', 'R', 'R', 'R']
+    le joueur 0 rentre et gagne 1 sur la route et 6 dans la manche
+    le joueur 1 rentre et gagne 1 sur la route et 6 dans la manche
+    le joueur 2 rentre et gagne 1 sur la route et 6 dans la manche
+    le joueur 3 rentre et gagne 1 sur la route et 6 dans la manche
+  FIN TOUR AU CAMP
+FIN MANCHE
+DEBUT MANCHE
+  scores: [21, 21, 21, 21], reliques gagnées: 0
+  deck: ['P4', 'P2', 'P5', 'R', 11, 13, 7, 'P3', 15, 'P4', 'P1', 11, 14, 'P2', 'R', 'P3', 'R', 2, 1, 3, 4, 'P2', 5, 5, 'P1', 'P1', 9, 'P5', 'P5', 'P4', 'P3', 17, 7]
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE P4
+  DEBUT TOUR
+    rubis en jeu: 0reliques en jeu: 0, pieges:['P4']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE P2
+  DEBUT TOUR
+    rubis en jeu: 0reliques en jeu: 0, pieges:['P4', 'P2']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE P5
+  DEBUT TOUR
+    rubis en jeu: 0reliques en jeu: 0, pieges:['P4', 'P2', 'P5']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE R
+  DEBUT TOUR
+    rubis en jeu: 0reliques en jeu: 1, pieges:['P4', 'P2', 'P5']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 11
+    le joueur 0 explore et gagne 2
+    le joueur 1 explore et gagne 2
+    le joueur 2 explore et gagne 2
+    le joueur 3 explore et gagne 2
+    il reste 3 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 3reliques en jeu: 1, pieges:['P4', 'P2', 'P5']
+    choix des joueurs: ['X', 'X', 'X', 'X']
+    NOUVELLE CARTE REVELEE 13
+    le joueur 0 explore et gagne 3
+    le joueur 1 explore et gagne 3
+    le joueur 2 explore et gagne 3
+    le joueur 3 explore et gagne 3
+    il reste 1 rubis de ce partage
+  DEBUT TOUR
+    rubis en jeu: 4reliques en jeu: 1, pieges:['P4', 'P2', 'P5']
+    choix des joueurs: ['R', 'R', 'R', 'R']
+    le joueur 0 rentre et gagne 1 sur la route et 6 dans la manche
+    le joueur 1 rentre et gagne 1 sur la route et 6 dans la manche
+    le joueur 2 rentre et gagne 1 sur la route et 6 dans la manche
+    le joueur 3 rentre et gagne 1 sur la route et 6 dans la manche
+  FIN TOUR AU CAMP
+FIN MANCHE
+
+
+--------FIN DE LA PARTIE
+
+[27, 27, 27, 27]
